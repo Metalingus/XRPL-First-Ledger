@@ -51,12 +51,12 @@ export async function swapXRPForToken(tokenAddress, amount) {
       Account: wallet.address,
       Amount: {
         currency: currency,
-        issuer: address,
+        issuer: tokenAddress,
         value: "588989752.3674631",
       },
       DeliverMin: {
         currency: currency,
-        issuer: address,
+        issuer: tokenAddress,
         value: "1.63720433", // Min AMount out
       },
       Destination: wallet.address,
