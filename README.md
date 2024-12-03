@@ -1,10 +1,10 @@
-# XRPL-First-Ledger
+# XRPL First Ledger Swap
 XRPL First Ledger buy bot for nodejs/ typescript
 
 
 You need to fill Two of these:
 
-1) THis is mandatory: const client = new xrpl.Client(""); // Use mainnet URL for live transactions
+1) This is mandatory: const client = new xrpl.Client(""); // Use mainnet URL for live transactions
 
 2) One of these to connect your wallet
 const wallet = xrpl.Wallet.fromSecret("");
